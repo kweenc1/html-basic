@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 621px;
+    height: 735px;
+    margin-left: 45%;
+    margin-right: 10%;
+}
+.container {
+    display: grid;
+}
+
+.hello {
+    color: #009000;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133%; /* 13.3px */
+    letter-spacing: 0.05px;
+}
+
+.Top-card {
+    width: 653px;
+    /* height: 240px; */
+    color: #000;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 151.5%; /* 96.96px */
+    letter-spacing: 0.32px;
+    
+}
+
+.passage {
+    width: 586px;
+    /* height: 110px; */
+    color: #21421E;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 212.5%; /* 27.625px */
+    letter-spacing: 0.39px;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+
+.food-picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+figcaption {
+    padding-left: 20px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 152.9%;
+    letter-spacing: 1.08px;
+    margin-top: 10px;
+}
+
+strong {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.68px;
+}
