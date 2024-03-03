@@ -5,14 +5,15 @@ export const HeroPage = () => {
     return(
        <main className='heropage'>
          <h1>Get Premium free for 1 month</h1>
-         <h3>Just ₹119/month after. Debit and credit cards accepted. Cancel anytime.</h3>
+         <h4>Just ₹119/month after. Debit and credit cards accepted. Cancel anytime.</h4>
          
-         <div>
-         <Button className="btnblack">Click me</Button>
-         <Button className="btnoutline">Click me</Button>
+         <div className='btn'>
+         <button className="btnblack">GET STARTED</button>
+         
+         <button className="btnoutline">SEE OTHER PLANS</button>
          </div>
-
-         <p><a href="#/Conditions">Terms and conditions apply.</a> 1 month free not available for users who have already tried Premium.</p>
+        <br />
+         <p className='conditions'><a href="#/Conditions" className='link'>Terms and conditions apply.</a> 1 month free not available for users who have already tried Premium.</p>
        </main>
 
     )
