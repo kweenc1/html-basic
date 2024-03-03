@@ -1,12 +1,11 @@
 import './LandingPageHeader.css'
-import { Component } from 'react'
-import {Logo} from './Logo'
+import {Logo} from '../Logo'
 
 
 export const LandingPageHeader = () => {
     return (<header className="header">
         <div className="logo">
-            <Logo/>
+            <Logo useWhite={true}/>
         </div>
         
         <div className="menu">
