@@ -4,27 +4,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     /* padding: 0 var(--app-block-padding); */
     height: 60vh;
     color: #fff;
+    padding: 15px;
+    min-height: calc(480px - 30px);
+    margin: 0;
 }
-h1 {
+.heroheading {
     font-size: 39px;
     line-height: 48px;
+    font-weight: bold;
+    margin: 0;
 }
-h4 {
+.herosubheading {
     font-size: 24px;
     font-weight: 400;
 }
 
-.btn {
+.btngroup{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
-button {
-    width: 160px;
-    height: 52px;
+/* button {
+   
+    padding: 16px 35px;
     border-radius: 500px;
     justify-content: space-between;
     align-items: center;
@@ -32,21 +39,22 @@ button {
     line-height: 20px;
     color: #fff;
     font-size: 13px;
-}
-.btnblack {
-   
-    background-color: #000;
-    border: none;
-    position: relative;
-    right: 4px;
-}
-.btnoutline {
-    border: 1px solid #fff;
-    background-color: #1D75DE;
-    position: relative;
-    left: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
     
-}
+    
+} */
+/* .btnblack, .btnoutline {
+   background-color: #000;
+    border: none;
+    
+} 
+ .btnoutline {
+    border: 1px solid #fff;
+    background-color: transparent;
+    
+    
+}  */
 .conditions {
     font-size: 13px;
     font-weight: 400;
