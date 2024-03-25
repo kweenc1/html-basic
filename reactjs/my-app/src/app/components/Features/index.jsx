@@ -4,7 +4,7 @@ import style from "./style.module.css";
 export const Features = () => {
   return (
     <section className={style.features}>
-      <h2 className={style.title}>THE POWER OF PREMIUM</h2>
+      <h2 className={style.title}>The Power Of Premium</h2>
 
       <div className={style.list}>
         {features.map((feature) => (

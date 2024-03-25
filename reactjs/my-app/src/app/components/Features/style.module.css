@@ -10,10 +10,12 @@
 .title {
     font-size: 39px;
     font-weight: bold;
+    text-align: center;
 }
 .features .list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 .features .list .items {

@@ -1,4 +1,4 @@
-.btnblack, .btnoutline, .btn-secondary {
+.btnblack, .btnoutline, .btn-secondary{
   background-color: black;
   color: #fff;
   border: none;
@@ -9,6 +9,7 @@
   font-family: Helvetica, sans-serif;
   font-weight: 600;
   line-height: 20px;
+  text-decoration: none;
 
 }
 .btn-secondary {
@@ -27,4 +28,15 @@
     text-wrap: nowrap;
     font-size: 8px;
   }
+}
+.btn-invert {
+  background-color: #fff;
+  color: #000;
+
+}
+.btnoutline.btn-invert{
+  background-color: inherit#fff;
+  color: #000;
+  border: 2px solid #000;
+  font-weight: 500px;
 }
